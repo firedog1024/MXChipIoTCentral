@@ -2,5 +2,6 @@
     "board": "AZ3166:stm32f4:MXCHIP_AZ3166",
     "configuration": "upload_method=OpenOCDMethod",
     "sketch": "iothub_properties.ino",
-    "port": "/dev/cu.usbmodem144133"
+    "port": "/dev/cu.usbmodem144133",
+    "output": "./build"
 }
