@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/Users/ianhollier/Library/Arduino15/packages/AZ3166/hardware/stm32f4/1.3.2/cores/arduino",
+                "/Users/ianhollier/Library/Arduino15/packages/arduino/hardware/samd/1.6.16/cores/arduino"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/Users/ianhollier/Library/Arduino15/packages/AZ3166/hardware/stm32f4/1.3.2/cores/arduino",
+                    "/Users/ianhollier/Library/Arduino15/packages/arduino/hardware/samd/1.6.16/cores/arduino"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        }
+    ],
+    "version": 3
+}
