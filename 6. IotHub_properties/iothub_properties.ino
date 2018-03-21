@@ -311,7 +311,13 @@ void loop()
         }
 
         // send the event - it's just a telemetry message
-        sendTelemetry(buff);
+        if (sendTelemetry(buff)) {
+            (void)Serial.printf("Send telemetry success\r\n");
+            sentCount++;
+        } else {
+            (void)Serial.printf("Failed to send telemetry\r\n");
+            errorCount++;
+        }
 
         lastSwitchPress = millis();
     }
