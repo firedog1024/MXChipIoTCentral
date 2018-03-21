@@ -12,4 +12,4 @@ Azure IoT Central.
 5. IotHub_events - Sending event data to IoT Central when button A is pressed
 6. IotHub_properties - Sending a reported property to IoT Central when button B is pressed
 7. IotHub_settings - Recieving a setting (desired property) from IoT Central
-8. Final_firmware - The complete firmware code (should be almost identical to 7. IotHub_settings)
+8. Final_firmware - The complete firmware code (should be almost identical to 7. IotHub_settings) includes ability to build a drag and drop binary

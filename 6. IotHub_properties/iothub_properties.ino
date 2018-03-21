@@ -249,8 +249,9 @@ float readPressureSensor() {
         return 0xFFFF;
 }
 
-// standard  Arduino loop function - called repeatedly for ever, think of this as the event loop or message pump.
-// try not to block this for long periods of time as your code is single threaded.
+// standard  Arduino loop function - called repeatedly for ever, think of this as the 
+// event loop or message pump.  Try not to block this for long periods of time as your 
+// code is single threaded.
 void loop()
 {
     // Send telemetry every 5 seconds
